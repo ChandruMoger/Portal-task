@@ -56,7 +56,7 @@ export class DataService {
 
   getSingleEvent(id) {
     return this.allEvents.find((event) => {
-      return event.id === id;
+      return event.id === parseInt(id);
     });
   }
 
