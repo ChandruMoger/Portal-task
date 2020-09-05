@@ -7,7 +7,7 @@
         <p><strong>Date & Time:</strong> {{eventToDIsplay.date | date:'short'}}</p>
         <p><strong>Meeting Room:</strong> {{eventToDIsplay.meetingRoom}}</p>
         <button 
-        class="card__details__btn btn-padding border-rds-5 border-none white-clr green-bg"
+        class="card__details__btn btn-padding border-rds-5 border-none white-clr green-bg cursor_pointer"
         (click)="updateEvent($event)">
             Update Details
         </button>
